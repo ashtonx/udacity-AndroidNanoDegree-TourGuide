@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="wrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="fitParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="fitWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="llVerticalContainer" parent="fitParent">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="viewPager" parent="fitParent">
+        <item name="android:background">@color/windowBackgroundDark</item>
+    </style>
+
+    <style name="item_container" parent="fitWidth">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/margins</item>
+        <item name="android:background">@color/windowBackground</item>
+    </style>
+
+    <style name="item_name" parent="fitWidth">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">@dimen/space_between_content</item>
+        <item name="android:textSize">@dimen/item_name_text_size</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/space_between_content</item>
+    </style>
+
+    <style name="item_content_container" parent="fitWidth">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="item_picture" parent="wrapContent">
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="item_text_container" parent="fitWidth">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/margins</item>
+    </style>
+
+    <style name="item_description" parent="fitWidth">
+        <item name="android:textSize">@dimen/item_text_size</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/space_between_content</item>
+    </style>
+
+    <style name="item_link" parent="fitWidth">
+        <item name="android:background">@color/colorSecondary</item>
+        <item name="android:layout_marginTop">@dimen/space_between_content</item>
+        <item name="android:textSize">@dimen/item_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:drawablePadding">@dimen/margins</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:minHeight">@dimen/item_size</item>
+    </style>
+
+    <style name="item_address" parent="item_link">
+        <item name="android:drawableRight">@drawable/ic_location_on_black_24dp</item>
+    </style>
+
+    <style name="item_phone" parent="item_link">
+        <item name="android:drawableRight">@drawable/ic_phone_black_24dp</item>
+    </style>
+
+    <style name="item_website" parent="item_link">
+        <item name="android:drawableRight">@drawable/ic_link_black_24dp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Tour guide</string>
+
+    <string name="null_string">none</string>
+    <!--NAVIGATION-->
+    <string name="category_sights_name">Sights</string>
+    <string name="category_recreation_name">Recreation</string>
+    <string name="category_restaurants_name">Restaurants</string>
+    <string name="category_hotels_name">Hotels</string>
+    <!--SIGHTS ENTRIES-->
+    <string name="sights_1_name">Castle of Warmian Bishops</string>
+    <string name="sights_1_description">Castle of Warmian Bishops in Lidzbark Warmiński
+        - a castle from the fourteenth century located in Lidzbark Warmiński,
+        belonging to Poland\'s most precious Gothic architectural style buildings.</string>
+    <string name="sights_1_address">Plac Zamkowy 1, Lidzbark Warmiński</string>
+    <string name="sights_1_phone_number">89 767 21 11</string>
+    <string name="sights_1_website">oddzialy.wmwm.pl</string>
+
+    <string name="sights_2_name">Oranżeria Krasickiego</string>
+    <string name="sights_2_description">@string/null_string</string>
+    <string name="sights_2_address">Ignacego Krasickiego 2, 11–100 Lidzbark Warmiński</string>
+    <string name="sights_2_phone_number">89 722 81 42</string>
+    <string name="sights_2_website">http://www.oranzeria.lidzbarkw.pl/</string>
+
+    <string name="sights_3_name">Wysoka Brama</string>
+    <string name="sights_3_description">Monument in Lidzbark Warmiński</string>
+    <string name="sights_3_address">Wysokiej Bramy 1, 11–100 Lidzbark Warmiński</string>
+    <string name="sights_3_phone_number">89 767 41 48</string>
+    <string name="sights_3_website">@string/null_string</string>
+
+    <string name="sights_4_name">Dom Środowisk Twórczych "Ratusz"</string>
+    <string name="sights_4_description">Community center in Lidzbark Warmiński</string>
+    <string name="sights_4_address">Ratuszowa 5, 11–100 Lidzbark Warmiński</string>
+    <string name="sights_4_phone_number">89 527 07 63</string>
+    <string name="sights_4_website">@string/null_string</string>
+
+    <!--RECREATION ENTRIES-->
+    <string name="recreation_1_name">Termy Warmińskie</string>
+    <string name="recreation_1_description">Family resort offering a water park &amp; apartments
+        with kitchenettes, plus dining, bowling &amp; a spa.</string>
+    <string name="recreation_1_address">Kąpielowa 1, 11–100 Lidzbark Warmiński</string>
+    <string name="recreation_1_phone_number">89 670 99 61</string>
+    <string name="recreation_1_website">termywarminskie.pl</string>
+
+    <string name="recreation_2_name">LIDZBARSKI DOM KULTURY: Kino Ignacy</string>
+    <string name="recreation_2_description">Movie theater</string>
+    <string name="recreation_2_address">Juliusza Słowackiego 4, Lidzbark Warmiński</string>
+    <string name="recreation_2_phone_number">89 767 26 88</string>
+    <string name="recreation_2_website">ldk.lidzbarkwarminski.pl/</string>
+
+    <string name="recreation_3_name">Tourist Information</string>
+    <string name="recreation_3_description">
+        Tourist information center in Lidzbark Warmiński, Poland</string>
+    <string name="recreation_3_address">Ignacego Krasickiego 1, 11–100 Lidzbark Warmiński</string>
+    <string name="recreation_3_phone_number">89 519 00 52</string>
+    <string name="recreation_3_website">http://www.domwarminski.pl/</string>
+
+    <!--RESTAURANT ENTRIES-->
+    <string name="restaurant_1_name">Starówka</string>
+    <string name="restaurant_1_description">@string/null_string</string>
+    <string name="restaurant_1_address">Hoża 39, 11–100 Lidzbark Warmiński</string>
+    <string name="restaurant_1_phone_number">89 767 00 60</string>
+    <string name="restaurant_1_website">http://www.restauracja-starowka.pl/</string>
+
+    <string name="restaurant_2_name">Hotel Górecki</string>
+    <string name="restaurant_2_description">Modest rooms in down-to-earth property,
+        plus a low-key restaurant, a pool &amp; a sauna.</string>
+    <string name="restaurant_2_address">Olsztyńska 4, 11–100 Lidzbark Warmiński</string>
+    <string name="restaurant_2_phone_number">89 767 32 92</string>
+    <string name="restaurant_2_website">hotelgorecki.pl</string>
+
+    <string name="restaurant_3_name">Hotel Krasicki</string>
+    <string name="restaurant_3_description">Refined, old-world hotel with a spa, an observatory &amp;
+        a restaurant with vaulted redbrick interiors.</string>
+    <string name="restaurant_3_address">Plac Zamkowy 1, 11–100 Lidzbark Warmiński</string>
+    <string name="restaurant_3_phone_number">89 537 17 00</string>
+    <string name="restaurant_3_website">hotelkrasicki.pl</string>
+
+    <!--HOTEL ENTRIES-->
+    <string name="hotel_1_name">Hotel Górecki</string>
+    <string name="hotel_1_description">Modest rooms in down-to-earth property,
+        plus a low-key restaurant, a pool &amp; a sauna.</string>
+    <string name="hotel_1_address">Olsztyńska 4, 11–100 Lidzbark Warmiński</string>
+    <string name="hotel_1_phone_number">89 767 32 92</string>
+    <string name="hotel_1_website">hotelgorecki.pl</string>
+
+    <string name="hotel_2_name">Termy Warmińskie</string>
+    <string name="hotel_2_description">Family resort offering a water park &amp; apartments
+        with kitchenettes, plus dining, bowling &amp; a spa.</string>
+    <string name="hotel_2_address">Kąpielowa 1, 11–100 Lidzbark Warmiński</string>
+    <string name="hotel_2_phone_number">89 670 99 61</string>
+    <string name="hotel_2_website">termywarminskie.pl</string>
+
+    <string name="hotel_3_name">Kopernik Hotel</string>
+    <string name="hotel_3_description">Hotel Kopernik is located in the centre of Lidzbark
+        Warmiński, a 4-minute walk from the Gothic Castle of Warmia Bishops. </string>
+    <string name="hotel_3_address">Zielona 1, 11–100 Lidzbark Warmiński</string>
+    <string name="hotel_3_phone_number">89 767 50 10</string>
+    <string name="hotel_3_website">kopernikhotel.pl</string>
+
+    <string name="hotel_4_name">Hotel Krasicki</string>
+    <string name="hotel_4_description">Refined, old-world hotel with a spa, an observatory &amp;
+        a restaurant with vaulted redbrick interiors.</string>
+    <string name="hotel_4_address">Plac Zamkowy 1, 11–100 Lidzbark Warmiński</string>
+    <string name="hotel_4_phone_number">89 537 17 00</string>
+    <string name="hotel_4_website">hotelkrasicki.pl</string>
+</resources>

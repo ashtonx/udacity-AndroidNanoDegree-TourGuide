@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              style="@style/item_container">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/item_name"
+        tools:text="@string/sights_1_name"/>
+
+    <LinearLayout
+        style="@style/item_content_container">
+
+        <ImageView
+            android:id="@+id/picture"
+            style="@style/wrapContent"/>
+
+        <LinearLayout
+            style="@style/item_text_container">
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/item_description"
+                tools:text="@string/sights_1_description"/>
+
+            <TextView
+                android:id="@+id/address"
+                style="@style/item_address"
+                tools:text="@string/sights_1_address"/>
+
+            <TextView
+                android:id="@+id/phone"
+                style="@style/item_phone"
+                tools:text="@string/sights_1_phone_number"/>
+
+            <TextView
+                android:id="@+id/website"
+                style="@style/item_website"
+                tools:text="@string/sights_1_website"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
